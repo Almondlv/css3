@@ -1,0 +1,140 @@
+/* 头部开始 */
+
+.header>.header_top {
+    display: none;
+}
+
+.header>.header_bottom {
+    display: none;
+}
+
+.header>.header_phone {
+    display: block;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 100px;
+}
+
+.header>.header_phone a {
+    font-size: 40px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.header>.header_phone>h1 a {
+    font-size: 100px;
+}
+
+
+/* 头部结束 */
+
+
+/* 内容开始 */
+
+.main {
+    margin-top: 0;
+}
+
+.main_top>div {
+    display: none;
+}
+
+.main_top>ul>li:nth-child(1) {
+    display: none;
+}
+
+.main_top>ul>li:nth-child(2) {
+    display: block;
+}
+
+.main>.main_bottom>div {
+    width: 100%;
+}
+
+.main>.main_bottom img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* 内容结束 */
+
+
+/* 底部开始 */
+
+.footer>.footer_in {
+    padding: 0 60px;
+    box-sizing: border-box;
+}
+
+.footer_in>.footer_top>.footer_top_left {
+    float: none;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.footer_in>.footer_top>.footer_top_right {
+    float: none;
+    width: 100%;
+}
+
+.footer_top_left>dl {
+    width: 100%;
+}
+
+.footer_top_left>dl>dt {
+    color: #666;
+    font-size: 25px;
+    font-weight: 400;
+    /* padding-bottom: 40px; */
+    height: 50px;
+    line-height: 50px;
+}
+
+.footer_top_left>dl>dt::after {
+    content: "";
+    float: right;
+    width: 20px;
+    height: 20px;
+    background: url("../images/add.png") center center no-repeat;
+    background-size: 20px 20px;
+}
+
+.footer_top_left>dl>dd {
+    display: none;
+}
+
+.footer_in>.footer_top>.footer_top_right>p:nth-child(1) {
+    float: left;
+}
+
+.footer_in>.footer_top>.footer_top_right>p {
+    text-align: right;
+}
+
+.footer_in>.footer_top>.footer_top_right>p:nth-child(3) {
+    font-size: 18px;
+}
+
+.footer_top_right>p>a {
+    font-size: 30px;
+    color: #415fff;
+}
+
+.footer_in .footer_bottom_right {
+    float: none;
+    padding: 10px 0px;
+}
+
+.footer_in .footer_bottom_right>a {
+    font-size: 23px;
+}
+
+.footer_in>.footer_bottom>.footer_bottom_left {
+    font-size: 18px;
+}
+
+
+/* 底部结束 */
